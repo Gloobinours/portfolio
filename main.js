@@ -1,27 +1,37 @@
 let classesTaken = [
     {
-        title: 'Web Design',
-        description: 'A web design class',
-        skills: ''
+        title: 'Software Dev & Problem Solving',
+        description: 'Fundamentals of computational problem solving',
+        skills: 'Python, Java, Data Structures, Data Integrity, Data Security, Problem Solving'
+    },
+    {
+        title: 'Engineering of Software Subsystems',
+        description: 'An introduction to the principles of the foundations of contemporary software design.',
+        skills: 'OOP, Java, Design Patterns'
+    },
+    {
+        title: 'Web Engineering',
+        description: 'Application of software engineering principles to the creation of web applications.',
+        skills: 'Flask, PostGreSQL, Python, React'
+    },
+    {
+        title: 'Intro to Software Engineering',
+        description: 'A term-long, team-based project done in a studio format.',
+        skills: 'Java, Spring Boot, Angular, RESTful API'
+    },
+    {
+        title: 'Software Design for Computing Systems',
+        description: 'This course provides students with hardware, computer architecture, and networking domain specific knowledge.',
+        skills: 'C, STM32'
+    },
+    {
+        title: 'Software Process & Project Management',
+        description: 'A class about software process and related software project management issues.',
+        skills: 'Project planning and tracking, Change Control, Software QA, Risk Management'
     },
     {
         title: 'Analysis of Algorithms',
-        description: 'A class for algos',
-        skills: ''
-    },
-    {
-        title: 'Software Design',
-        description: '',
-        skills: ''
-    },
-    {
-        title: 'Web Design',
-        description: '',
-        skills: ''
-    },
-    {
-        title: 'Web Design',
-        description: '',
+        description: 'Covers a variety of classical algorithms and data structures and their complexity.',
         skills: ''
     }
 ]
@@ -38,7 +48,16 @@ for (let i = 0; i < classesTaken.length; i++) {
 
     let p = document.createElement('p');
     p.textContent = classesTaken[i].description || 'Description not available.';
+    p.style.marginBottom = '20px'
     node.appendChild(p);
+
+    let skill = document.createElement('p');
+    let s = document.createElement('span');
+    s.textContent = 'skills: ';
+    s.classList.add('gradient-text');
+    node.appendChild(s);
+    skill.textContent += classesTaken[i].skills || 'Skills not available.';
+    node.appendChild(skill);
 
     document.getElementById('carousel-container').appendChild(node);
 }
