@@ -55,6 +55,8 @@ const carouselItems = document.querySelectorAll('.carousel-list-item');
 const itemWidth = carouselItems[0].offsetWidth + 20; // Includes margin (10px on each side)
 const totalItems = carouselItems.length;
 
+document.getElementById('carousel-container').style.width = itemWidth * classesTaken.length
+
 // Move to the next slide
 nextButton.addEventListener('click', () => {
     if (currentIndex < totalItems - 1) {
