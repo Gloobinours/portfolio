@@ -217,6 +217,15 @@
     height: 100%; /* Full height of the section */
     border-left: 3px solid transparent; /* Left border */
     border-image: linear-gradient(0deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) 1;
+
+    /* Initial state for animation */
+    transform: scaleY(1);
+    transform-origin: top; /* Animate from the top */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .carousel-list-item:hover::before {
+    transform: scaleY(0.2);
   }
 
   /* Carousel Buttons */
@@ -255,7 +264,8 @@
   /* Footer */
   footer {
     background-color: #202020;
-    padding: 20px;
+    background: linear-gradient(0deg, #151515, #202020);
+    padding: 30px;
     text-align: center;
     font-size: 14px;
     color: #999;
