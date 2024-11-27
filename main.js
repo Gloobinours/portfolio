@@ -115,3 +115,7 @@ function updateSlideClass() {
     // Add the current-slide class to the active item
     carouselItems[currentIndex].classList.add('current-slide');
 }
+
+function sendEmail() {
+    window.open('mailto:louanflammanc.pro@gmail.com');
+}
