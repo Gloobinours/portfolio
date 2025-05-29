@@ -109,7 +109,7 @@
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
   }
   
   .download-btn:hover {
@@ -206,6 +206,8 @@
     padding: 20px;
     margin: 0 10px;
     background-color: #181818;
+    border-radius: 5px;
+    overflow: hidden;
   }
 
   .carousel-list-item::before {
