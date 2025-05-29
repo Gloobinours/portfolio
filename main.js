@@ -1,4 +1,4 @@
-let classesTaken = [
+const classesTaken = [
     {
         title: 'Software Dev & Problem Solving',
         description: 'Fundamentals of computational problem solving',
@@ -22,7 +22,7 @@ let classesTaken = [
     {
         title: 'Software Design for Computing Systems',
         description: 'This course provides students with hardware, computer architecture, and networking domain specific knowledge.',
-        skills: 'C, STM32'
+        skills: 'C, STM32, Embedded Systems'
     },
     {
         title: 'Software Process & Project Management',
@@ -32,7 +32,7 @@ let classesTaken = [
     {
         title: 'Analysis of Algorithms',
         description: 'Covers a variety of classical algorithms and data structures and their complexity.',
-        skills: ''
+        skills: 'Time Complexity, Space Complexity, Big O Notation, Divide and Conquer, Greedy Algorithms, Dynamic Programming'
     }
 ]
 
