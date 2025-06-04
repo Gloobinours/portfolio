@@ -10,6 +10,11 @@ const classesTaken = [
         skills: 'OOP, Java, Design Patterns'
     },
     {
+        title: 'Cloud Computing',
+        description: 'An introduction to cloud computing, including cloud architecture, deployment models, and service models.',
+        skills: 'AWS, Data Lakes, Data Warehouse, CI/CD pipelines, Terraform'
+    },
+    {
         title: 'Web Engineering',
         description: 'Application of software engineering principles to the creation of web applications.',
         skills: 'Flask, PostGreSQL, Python, React'
