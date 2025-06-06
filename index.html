@@ -1,66 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Louan Flammanc</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-</head>
-<body>
-    <header>
-        <div class="logo">LF</div>
-        <nav>
-          <a href="https://github.com/Gloobinours"><img src="github-mark-white.png" alt="GitHub"></a>
-          <a href="https://www.linkedin.com/in/louan-flammanc-07a349237/"><img src="linkedin.png" alt="LinkedIn"></a>
-        </nav>
-    </header>
-
-    <main class="content">
-
-        <!-- Welcome -->
-        <section class="welcome">
-            <h1>Welcome.</h1>
-            <p>
-                Hello! My name is Louan, and I’m a passionate <span class="gradient-text">Software Engineering</span> 
-                student at the <span class="gradient-text">Rochester Institute of Technology</span>. 
-                My experience spans a wide range of projects, 
-                from <span class="gradient-text">machine learning</span> applications to <span class="gradient-text">back-end</span> development. 
-                I’m currently seeking exciting <span class="gradient-text">co-op</span> 
-                and <span class="gradient-text">internship</span> opportunities 
-                within the United States to contribute my skills and grow professionally.
-            </p>
-            <a href="resume-louan_flammanc.pdf" class="download-btn" download>
-                Download Resume
-            </a>
-        </section>
-
-        <!-- Projects -->
-        <section class="projects">
-            <h2>Projects</h2>
-            <ul id="project-list">
-            </ul>
-        </section>
-
-    </main>
-    <section class="classes">
-        <h2>Classes taken</h2>
-        <div class="carousel">
-            <button class="left-button">&lsaquo;</button>
-            <div id="carousel-container">
-            </div>
-            <button class="right-button">&rsaquo;</button>
-        </div>
-    </section>
-    
-    <footer>
-        <p>Email me at <span class="gradient-text">louanflammanc.pro@gmail.com</span></p>
-    </footer>
-
-    <script src="main.js"></script>
-    <script src="projects.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

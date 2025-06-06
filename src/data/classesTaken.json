@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Software Dev & Problem Solving",
+    "description": "Fundamentals of computational problem solving",
+    "skills": ["Python", "Java", "Data Structures", "Data Integrity", "Data Security", "Problem Solving"]
+  },
+  {
+    "title": "Engineering of Software Subsystems",
+    "description": "An introduction to the principles of the foundations of contemporary software design.",
+    "skills": ["OOP", "Java", "Design Patterns"]
+  },
+  {
+    "title": "Web Engineering",
+    "description": "Application of software engineering principles to the creation of web applications.",
+    "skills": ["Flask", "PostGreSQL", "Python", "React"]
+  },
+  {
+    "title": "Intro to Software Engineering",
+    "description": "A term-long, team-based project done in a studio format.",
+    "skills": ["Java", "Spring Boot", "Angular", "RESTful API"]
+  },
+  {
+    "title": "Software Design for Computing Systems",
+    "description": "This course provides students with hardware, computer architecture, and networking domain specific knowledge.",
+    "skills": ["C", "STM32", "Embedded Systems"]
+  },
+  {
+    "title": "Software Process & Project Management",
+    "description": "A class about software process and related software project management issues.",
+    "skills": ["Project planning and tracking", "Change Control", "Software QA", "Risk Management"]
+  },
+  {
+    "title": "Analysis of Algorithms",
+    "description": "Covers a variety of classical algorithms and data structures and their complexity.",
+    "skills": ["Time Complexity", "Space Complexity", "Big O Notation", "Divide and Conquer", "Greedy Algorithms", "Dynamic Programming"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "HADES",
+    "link": "https://github.com/Gloobinours/HADES",
+    "description": "A honeypot and analysis platform for detecting and studying cyber threats.",
+    "tech": ["Python", "Flask", "MongoDB", "Docker"]
+  },
+  {
+    "title": "Stock Prediction AI",
+    "link": "https://github.com/jhailos/stock-prediction",
+    "description": "An AI-powered tool for predicting stock prices using machine learning models.",
+    "tech": ["Python", "TensorFlow", "Pandas", "scikit-learn"]
+  },
+  {
+    "title": "Maze AI",
+    "link": "https://github.com/Gloobinours/maze-ai",
+    "description": "A project where AI agents learn to solve mazes using reinforcement learning.",
+    "tech": ["Python", "PyTorch", "OpenAI Gym"]
+  },
+  {
+    "title": "Tetris Game",
+    "link": "https://gloobinours.github.io/Tetris/Front/",
+    "description": "A classic Tetris game built with modern web technologies.",
+    "tech": ["JavaScript", "HTML5", "CSS3"]
+  }
+]
