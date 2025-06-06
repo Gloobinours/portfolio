@@ -9,7 +9,7 @@ export const Home = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
             Hi, I'm Louan
         </h1>
-        <p className="text-gray-400 text-lg mx-auto max-w-xl mb-8">
+        <p className="text-gray-200 text-lg mx-auto max-w-xl mb-8">
           I’m a passionate Software Engineering student at the Rochester Institute of Technology. 
           My experience spans a wide range of projects, from machine learning applications to back-end development. 
           I’m currently seeking exciting co-op and internship opportunities within the United States to contribute 

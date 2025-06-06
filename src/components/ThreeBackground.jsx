@@ -6,8 +6,8 @@ function AnimatedTorus({ pointer }) {
 
   useFrame(() => {
     if (meshRef.current) {
-      meshRef.current.rotation.y = pointer.x * 0.7;
-      meshRef.current.rotation.x = Math.PI / 2 + pointer.y * 0.7;
+      meshRef.current.rotation.z = pointer.x * 0.5;
+      meshRef.current.rotation.x = -(Math.PI / 2 + pointer.y * 0.5);
     }
   });
   return (
