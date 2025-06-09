@@ -16,14 +16,14 @@ export const Home = () => {
           my skills and grow professionally. 
         </p>
         <div className="flex justify-center space-x-4">
-          <button 
-              onClick=""
+          <a 
+              href="/Resume louan flammanc.pdf"
               className="px-6 py-3 bg-blue-500 rounded font-medium
                           transition relative overflow-hidden hover:-translate-y-0.5 
                           hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
           >
             Download Resume
-          </button>
+          </a>
           <a 
               href="#contact"
               className="border border-blue-500/50 px-6 py-3 rounded font-medium

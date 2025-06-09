@@ -16,6 +16,9 @@ export const Projects = () => {
               className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
             >
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+              <p className="text-xs font-semibold mb-2 text-blue-400">
+                {project.type === "Personal" ? "Personal Project" : "Academic Project"}
+              </p>
               <p className="text-gray-400 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech?.map((tech, key) => (
@@ -25,14 +28,18 @@ export const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-between items-center">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  >
+                    View Project →
+                  </a>
+                ) : (
+                  <span className="text-gray-500 italic my-4">No public link available</span>
+                )}
               </div>
             </div>
           ))}

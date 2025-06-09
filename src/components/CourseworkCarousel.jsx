@@ -2,11 +2,11 @@ import { useState } from "react";
 import classesTaken from "../data/classesTaken.json";
 
 const CARDS_TO_SHOW = 3;
-const CARD_WIDTH = 320; // px, should match max-w-xs
+const CARD_WIDTH = 320;
 
 export const CourseworkCarousel = () => {
   const [index, setIndex] = useState(0);
-  const [direction, setDirection] = useState(0); // -1 for prev, 1 for next
+  const [direction, setDirection] = useState(0);
 
   const prev = () => {
     setDirection(-1);
@@ -21,7 +21,6 @@ export const CourseworkCarousel = () => {
     );
   };
 
-  // Get the window of cards to show (with wrap-around)
   const visibleCourses = [];
   for (let i = 0; i < CARDS_TO_SHOW; i++) {
     visibleCourses.push(classesTaken[(index + i) % classesTaken.length]);
@@ -59,14 +58,14 @@ export const CourseworkCarousel = () => {
       <div className="flex gap-4 mt-4">
         <button
           onClick={prev}
-          className="px-4 py-2 rounded bg-blue-500/80 text-white hover:bg-blue-600 transition"
+          className="px-4 py-2 rounded bg-gray-900/80 text-white hover:bg-blue-600 transition cursor-pointer"
           aria-label="Previous"
         >
           &#8592; Prev
         </button>
         <button
           onClick={next}
-          className="px-4 py-2 rounded bg-blue-500/80 text-white hover:bg-blue-600 transition"
+          className="px-4 py-2 rounded bg-gray-900/80 text-white hover:bg-blue-600 transition cursor-pointer"
           aria-label="Next"
         >
           Next &#8594;
