@@ -10,7 +10,7 @@ export const About = () => {
     <section id="about" className="min-h-screen flex items-center justify-center py-20">
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center text-transparent">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-yellow-400 bg-clip-text text-center text-transparent">
             About Me
           </h2>
 
@@ -26,7 +26,7 @@ export const About = () => {
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {skillArr.map((skill, index) => (
-                      <span key={index} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                      <span key={index} className="bg-yellow-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                         {skill}
                       </span>
                     ))}

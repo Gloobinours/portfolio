@@ -46,7 +46,7 @@ export const CourseworkCarousel = () => {
               <p className="text-gray-300 mb-2">{course.description}</p>
               <ul className="flex flex-wrap gap-2 mb-2">
                 {course.skills.map((skill, i) => (
-                  <li key={i} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm">
+                  <li key={i} className="bg-yellow-500/10 text-blue-500 px-3 py-1 rounded-full text-sm">
                     {skill}
                   </li>
                 ))}

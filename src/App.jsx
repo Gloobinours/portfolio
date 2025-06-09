@@ -10,11 +10,13 @@ import { Contact } from './components/sections/Contact';
 import { Footer } from './components/sections/Footer';
 import { ThreeBackground } from './components/ThreeBackground';
 import { ParticlesBackground } from './components/ParticlesBackground';
+import { Minigame3D } from './components/Minigame3D';
 import "./index.css";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showGame, setShowGame] = useState(false); // <-- add this
 
   return (
     <>
@@ -31,7 +33,8 @@ function App() {
         <About />
         <Projects />
         <Contact />
-        <Footer />
+        <Minigame3D open={showGame} onClose={() => setShowGame(false)} />
+        <Footer showGame={showGame} setShowGame={setShowGame} />
       </div>
     </>
   );

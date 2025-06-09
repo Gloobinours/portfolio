@@ -32,7 +32,7 @@ export const Minigame3D = ({ open }) => {
 
   return (
     <div
-      className="fixed left-0 bottom-0 w-full flex justify-center pointer-events-none z-50"
+      className="fixed left-0 bottom-0 w-full flex justify-center z-0"
       style={{ height: 200 }}
     >
       <div
