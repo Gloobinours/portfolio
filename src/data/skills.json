@@ -1,0 +1,34 @@
+{
+  "Backend Skills": [
+    "Python",
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+    "Flask",
+    "REST APIs"
+  ],
+  "Machine Learning Skills": [
+    "PyTorch",
+    "Scikit-learn",
+    "Pandas",
+    "LaTeX"
+  ],
+  "Frontend Skills": [
+    "JavaScript",
+    "React",
+    "HTML5",
+    "CSS3",
+    "tailwindcss"
+  ],
+  "DevOps Skills": [
+    "AWS",
+    "Docker",
+    "CI/CD",
+    "Git"
+  ],
+  "Other Skills": [
+    "Agile Methodologies",
+    "Problem Solving",
+    "Team Collaboration"
+  ]
+}
