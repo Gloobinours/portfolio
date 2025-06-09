@@ -34,7 +34,7 @@ export const ThreeBackground = () => {
   }, []);
 
   return (
-    <div className="inset-0 -z-100, opacity-100 absolute">
+    <div className="inset-0 z-0 opacity-100 absolute">
       <Canvas 
         camera={{ position: [0, 0, 8], fov: 60 }}
         onPointerMove={(e) => setPointer({ 

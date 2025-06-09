@@ -8,6 +8,7 @@ import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import { ThreeBackground } from './components/ThreeBackground';
+import { ParticlesBackground } from './components/ParticlesBackground';
 import "./index.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+      <ParticlesBackground />
       <ThreeBackground />
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)}/>}
       <div className={`min-h-screen transition-opacity duration-700 ${

@@ -1,8 +1,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { CourseworkCarousel } from "../CourseworkCarousel";
 
 export const About = () => {
 
-  const backendSkills = ["Python", "Java", "MongoDB", "PostgreSQL", "GraphQL", "REST APIs"];
+  const backendSkills = ["Python", "Java", "Sring Boot", "PostgreSQL", "Flask", "REST APIs"];
   const machineLearningSkills = ["Python", "PyTorch", "Scikit-learn", "Natural Language Processing", "Computer Vision"];
 
   return (
@@ -19,7 +20,7 @@ export const About = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-              <h3 text-xl font-bold mb-4>Backend</h3>
+              <h3 className="text-xl font-bold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((skill, index) => (
                   <span key={index} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20
@@ -30,7 +31,7 @@ export const About = () => {
               </div>
             </div>
             <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-              <h3 text-xl font-bold mb-4>Machine Learning</h3>
+              <h3 className="text-xl font-bold mb-4">Machine Learning</h3>
               <div className="flex flex-wrap gap-2">
                 {machineLearningSkills.map((skill, index) => (
                   <span key={index} className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20
@@ -45,14 +46,11 @@ export const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">Education</h3>
-            <ul list-disc list-inside text-gray-300 space-y-2>
-              <li>
-                <strong>Bachelor of Science in Software Engineering</strong> - Rochester Institute of Technology (2021-2025)
-              </li>
-              <li>
-                <strong>Relevant Coursework:</strong> Cloud Computing, analysis of Algorithms, Engineering of Software Subsystems
-              </li>
-            </ul>
+            <p className="text-gray-300 mb-4">
+              I hold a Bachelor's degree in Software Engineering from the Rochester Institute of Technology, where I developed a strong foundation in software engineering and machine learning.
+            </p>
+            <h4 className="text-l font-bold mb-4">Relevant Coursework:</h4>
+            <CourseworkCarousel />
           </div>
         </div>
       </div>
