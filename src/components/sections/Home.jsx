@@ -17,7 +17,7 @@ export const Home = () => {
         </p>
         <div className="flex justify-center space-x-4">
           <a 
-              href="/Resume louan flammanc.pdf"
+              href="portfolio/Resume louan flammanc.pdf"
               className="px-6 py-3 bg-blue-500 rounded font-medium
                           transition relative overflow-hidden hover:-translate-y-0.5 
                           hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:bg-yellow-500"
