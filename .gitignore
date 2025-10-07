@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 # Emailjs
-src/emailjs.config.js
+*.env
+emailjs.config.js

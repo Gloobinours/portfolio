@@ -1,0 +1,55 @@
+{
+  "hash": "97208c78",
+  "configHash": "1fd1b36c",
+  "lockfileHash": "c14d9410",
+  "browserHash": "89f72b4a",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "08a6e0a3",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "df31bf4b",
+      "needsInterop": true
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "40bb6872",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "105bfbbd",
+      "needsInterop": false
+    },
+    "emailjs-com": {
+      "src": "../../node_modules/emailjs-com/es/index.js",
+      "file": "emailjs-com.js",
+      "fileHash": "22e43116",
+      "needsInterop": false
+    },
+    "@react-three/cannon": {
+      "src": "../../node_modules/@react-three/cannon/dist/index.js",
+      "file": "@react-three_cannon.js",
+      "fileHash": "8bc1e7c5",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RYNJ4B64": {
+      "file": "chunk-RYNJ4B64.js"
+    },
+    "chunk-6GAV2S6I": {
+      "file": "chunk-6GAV2S6I.js"
+    },
+    "chunk-DC5AMYBS": {
+      "file": "chunk-DC5AMYBS.js"
+    }
+  }
+}
