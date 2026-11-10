@@ -11,7 +11,7 @@ export const Experience = () => {
             Experience
           </h2>
 
-          <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border border-white/10 bg-white/5 backdrop-blur-sm shadow-[0_0_30px_rgba(59,130,246,0.08)] hover:-translate-y-1 transition-all">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
               <div>
                 <h3 className="text-2xl font-bold text-white">Software Engineering Intern</h3>

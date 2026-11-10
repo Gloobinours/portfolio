@@ -14,7 +14,7 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border border-white/10 bg-white/5 backdrop-blur-sm shadow-[0_0_30px_rgba(59,130,246,0.08)] hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               I am a passionate developer with a love for creating innovative solutions. My journey in tech has been driven by curiosity and a desire to learn continuously.
             </p>
@@ -36,7 +36,7 @@ export const About = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_0_30px_rgba(59,130,246,0.08)] hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">Education</h3>
               <p className="text-gray-300 mb-4">
                 I hold a Bachelor's degree in Software Engineering from the Rochester Institute of Technology, where I developed a strong foundation in software engineering and machine learning.
