@@ -10,3 +10,6 @@ export default defineConfig({
   ],
   base: "/"
 })
+
+// Just do: npm run deploy
+// to update gh pages
